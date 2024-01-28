@@ -82,10 +82,18 @@
 }
 #get-feedback{
     border-radius: 30px;
-    padding: 18px 30px;
-    border: 1px solid #ffffff;
+    padding: 20px 55px;
+    border: 1px solid white;
     background-color: var(--red);
     color: var(--white);
+}
+#get-feedback-1{
+    border-radius: 30px;
+    padding: 20px 55px;
+    border: 0px;
+    background-color: var(--red);
+    color: var(--white);
+
 }
 #get-direction-1{
     background-color: green;
@@ -110,12 +118,25 @@
     margin-bottom: 1rem;
 }
 .form-control{
-    height: 44px;
+    height: 55px;
     display: block;
    width: 850px;
     padding: 0.375rem 0.75rem;
     font-weight: 400;
-    line-height: 1.5;
+    line-height: 1.8;
+    background-clip: padding-box;
+    background-color: #ffffff;
+    color: #495057;
+    border-radius: 0.25rem;
+
+}
+.form-control-1{
+    height: 55px;
+    display: block;
+   width: 600px;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    line-height: 1.8;
     background-clip: padding-box;
     background-color: #ffffff;
     color: #495057;
